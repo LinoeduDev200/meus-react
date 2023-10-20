@@ -1,0 +1,21 @@
+.container {
+      display: flex;
+      justify-content: center;
+
+      overflow: hidden;     
+      background-color:aqua;
+      height: 39vw;
+      }
+      
+.relogio {
+  color: red;
+  rotate: 50;
+  font-size: 100px;
+  
+
+    
+  
+  
+}
+
+
