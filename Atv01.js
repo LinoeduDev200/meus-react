@@ -17,13 +17,14 @@ function Atv01() {
   }, []);
 
   return (
-     
+     <div>
           <h1> Atividade 01</h1>
           <Link to="/">Rertonar para a pagina Inicial</Link>
       
     <div className='letreiro'>
       <h1>{frase.substring(0, letraIndex)}</h1>
     </div>
+  </div>
     
   );
 }
