@@ -1,0 +1,95 @@
+.App {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    
+    
+  }
+  
+  .img{
+    height: 100vh;
+
+    max-width: 100%;
+    
+    background-image: url("natureza.jpeg");
+    background-attachment: fixed;
+
+    background-size: cover;
+    
+    overflow: hidden;
+    
+  }
+  h1 {
+    margin-left: 10px ;
+    
+  }
+  
+  .pessoas {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .contador {
+    text-align: center;
+    margin: 10px;
+  }
+  
+  .button1 {
+    background-color: rgba(0, 128, 0, 0.726);
+    color: white;
+    border: line;
+    border-radius: 50px;
+    padding: 05px 20px;
+    cursor: pointer;
+    font-size: 29px;
+    font-weight: bold;
+  }
+
+  .button2 {
+    background-color: rgba(255, 0, 0, 0.726);
+    color: white;
+    border: line ;
+    border-radius: 50px;
+    padding: 05px 20px;
+    cursor: pointer;
+    font-size: 33px;
+    font-weight: bold;
+  }
+  .reset {
+    background-color: rgba(255, 0, 0, 0.726);
+    color: white;
+    border: line ;
+    border-radius: 50px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    
+
+  }
+  
+  .button1:hover {
+    background-color: green;
+  }
+  .button2:hover {
+    background-color: red;
+  }
+  .reset:hover {
+    background-color: red;
+  }
+  span {
+    margin-left:  05px;
+    font-size: 24px;
+    border: 1px solid black;
+    padding-left: 45px;
+    padding-bottom: 05px;
+    padding-right: 40px;
+    padding-top: 05px;
+   
+    
+    
+  }
+  
+  .total {
+    margin-top: 30px;
+  }
+  

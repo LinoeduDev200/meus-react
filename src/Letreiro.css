@@ -1,15 +1,29 @@
 .letreiro {
   text-shadow: #030303;
   text-shadow: 15px;
-  font-size: 44px;
   font-weight: bold;
   overflow: hidden;
   height: 39vw;
   border-right: 2px solid hsl(0, 92%, 49%);
   animation: blink-caret 0.75s step-end infinite;
+  
+  
+  height: 100vh;
+  max-width: 100%;
+  
+  background-image: url("natureza.jpeg");
+  background-attachment: fixed;
+  background-size: cover;
+}
+.h2{
   text-align: center;
-  background-color: gray;
-  color: red;
+  color:orangered;
+  font-size: 70px;
+  
+}
+.h1{
+  color: greenyellow;
+  margin-left: 10px;
 }
 
 

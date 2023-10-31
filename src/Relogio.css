@@ -1,21 +1,29 @@
 .container {
       display: flex;
       justify-content: center;
-
-      overflow: hidden;     
-      background-color:aqua;
-      height: 39vw;
+       overflow: hidden;    
+        
+      
+      }
+      .r { 
+  
+        height: 100vh;
+    
+        max-width: 100%;
+        
+        background-image: url("natureza.jpeg");
+        background-attachment: fixed;
+    
+        background-size: cover;
+        
+        overflow: hidden;
+        
       }
       
 .relogio {
   color: red;
   rotate: 50;
-  font-size: 100px;
-  
-
-    
-  
-  
+  font-size: 100px;  
 }
 
 
