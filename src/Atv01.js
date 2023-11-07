@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import './Letreiro.css'
 
 function Atv01() {
-  const frase = "Venha Estudar na FATEC  ";
+  const frase = "Conheça a FATEC  ";
   const [letraIndex, setLetraIndex] = useState(0);
 
   useEffect(() => {
